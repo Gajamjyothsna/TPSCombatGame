@@ -32,7 +32,7 @@ RenderSettings:
   m_FlareFadeSpeed: 3
   m_HaloTexture: {fileID: 0}
   m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
-  m_DefaultReflectionMode: 0
+  m_DefaultReflectionMode: 1
   m_DefaultReflectionResolution: 128
   m_ReflectionBounces: 1
   m_ReflectionIntensity: 1
@@ -590,6 +590,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 767643124}
+  - component: {fileID: 767643125}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -613,6 +614,27 @@ Transform:
   - {fileID: 400532235}
   m_Father: {fileID: 1969064701}
   m_LocalEulerAnglesHint: {x: 0, y: 33.543, z: 0}
+--- !u!95 &767643125
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 767643123}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 2fec26950b7178b47bd6c84f287df6cb, type: 3}
+  m_Controller: {fileID: 9100000, guid: 06deb20570c0bcf4fb72b1dd6650daef, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
